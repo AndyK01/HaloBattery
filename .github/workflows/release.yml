@@ -16,6 +16,7 @@ name: Build and release
 on:
   push:
     tags: ["v*"]
+    branches: ["build/pro-x3-wired-charging-504"]
   workflow_dispatch:
     inputs:
       signpath_test:
