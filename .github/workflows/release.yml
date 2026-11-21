@@ -16,6 +16,7 @@ name: Build and release
 on:
   push:
     tags: ["v*"]
+    branches: ["build/pro-x3-classic-117-20261121"]
   workflow_dispatch:
 
 permissions:
