@@ -16,6 +16,7 @@ name: Build and release
 on:
   push:
     tags: ["v*"]
+    branches: ["build/pro-x3-post-512-20261121"]
   workflow_dispatch:
     inputs:
       signpath_test:
